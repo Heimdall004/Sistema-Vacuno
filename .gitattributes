@@ -1,0 +1,21 @@
+# Control de finales de línea para archivos de texto
+* text=auto
+
+# Tratamiento de archivos binarios
+*.png binary
+*.jpg binary
+*.dat binary
+
+# Personalización de la fusión para ciertos archivos
+*.json merge=union
+
+# Personalización de la visualización de diferencias
+*.md diff=markdown
+
+# Ignorar archivos de compilación y temporales en la exportación
+*.class export-ignore
+*.log export-ignore
+*.tmp export-ignore
+
+# Archivos específicos que no deben ser tratados como texto
+*.svg binary
